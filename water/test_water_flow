@@ -1,0 +1,40 @@
+"""
+(BSc) Software Development at Byu-Idaho  
+Course: CSE-111 Programming with Functions
+W03 Project: -  Water Pressure  FInal
+Author: Tiago Borges 
+
+"""
+
+
+import pytest
+from water_flow import pressure_loss_from_fittings, reynolds_number, pressure_loss_from_pipe_reduction, kPa_to_psi
+
+def test_pressure_loss_from_fittings():
+    assert pressure_loss_from_fittings(0.00, 3) == 0.000
+    assert pressure_loss_from_fittings(1.65, 0) == 0.000
+    assert pressure_loss_from_fittings(1.65, 2) == -0.109
+    assert pressure_loss_from_fittings(1.75, 2) == -0.122
+    assert pressure_loss_from_fittings(1.75, 5) == -0.306
+
+def test_reynolds_number():
+    assert reynolds_number(0.048692, 0.00) == 0
+    assert reynolds_number(0.048692, 1.65) == 80069
+    assert reynolds_number(0.048692, 1.75) == 84922
+    assert reynolds_number(0.286870, 1.65) == 471729
+    assert reynolds_number(0.286870, 1.75) == 500318
+
+def test_pressure_loss_from_pipe_reduction():
+    assert pressure_loss_from_pipe_reduction(0.28687, 0.00, 0, 0.048692) == 0.000
+    assert pressure_loss_from_pipe_reduction(0.28687, 1.65, 471729, 0.048692) == -163.744
+    assert pressure_loss_from_pipe_reduction(0.28687, 1.75, 500318, 0.048692) == -184.182
+
+def test_kPa_to_psi():
+    assert kPa_to_psi(0.0) == 0.0
+    assert kPa_to_psi(1.0) == 0.1450377
+    assert kPa_to_psi(100.0) == 14.50377
+    assert kPa_to_psi(158.7) == 23.0390389
+    assert kPa_to_psi(1000.0) == 145.0377
+
+if __name__ == "__main__":
+    pytest.main()

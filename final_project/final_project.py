@@ -295,3 +295,7 @@ def export_amortization_to_csv(schedule: List[dict], filename="amortization_sche
 
 if __name__ == "__main__":
     main()
+
+ # Uaw;  297 Code-Lines? 
+ # It demanded a lot of work! (A many  errors  occurred hehe) 
+ # # Thanks for review my code

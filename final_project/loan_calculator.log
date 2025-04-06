@@ -1,0 +1,6 @@
+2025-04-06 13:21:30,691 - INFO - Monthly payment calculated: principal=1000.0, rate=1.0000%, time=36, monthly_payment=33.21
+2025-04-06 13:21:30,692 - INFO - Monthly payment calculated: principal=1000.0, rate=1.0000%, time=36, monthly_payment=33.21
+2025-04-06 13:21:30,692 - INFO - Loan totals calculated: principal=1000.0, rate=1.0000%, time=36, total_paid=1195.72, total_interest=195.72
+2025-04-06 13:21:30,692 - INFO - Monthly payment calculated: principal=1000.0, rate=1.0000%, time=36, monthly_payment=33.21
+2025-04-06 13:21:30,692 - INFO - Amortization schedule generated for principal=1000.0, rate=1.0000%, time=36
+2025-04-06 13:22:19,075 - ERROR - Error saving results to file: 'charmap' codec can't encode character '\U0001f4b0' in position 0: character maps to <undefined>

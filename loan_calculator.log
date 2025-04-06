@@ -1,0 +1,5 @@
+2025-03-31 20:31:13,444 - INFO - Loan calculated: principal=1.5, rate=1.0, time=12, total_paid=1.6902375451979545, total_interest=0.19023754519795455
+2025-03-31 20:34:06,716 - INFO - Loan calculated: principal=1500.0, rate=1.0, time=12, total_paid=1690.2375451979547, total_interest=190.23754519795466
+2025-03-31 20:40:12,001 - ERROR - Invalid input format.
+2025-03-31 20:40:28,540 - INFO - Loan calculated: principal=10000.0, rate=2.0, time=48, total_paid=25870.703854994306, total_interest=15870.703854994306
+2025-03-31 20:47:28,930 - ERROR - Invalid principal amount: must be greater than 0.

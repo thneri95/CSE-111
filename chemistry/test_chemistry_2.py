@@ -12,8 +12,8 @@ Author: Tiago Borges
 
 from chemistry import make_periodic_table, compute_molar_mass
 from formula import parse_formula, FormulaError
-from pytest import approx
-import pytest
+from final_project.test_final_project import approx
+import final_project.test_final_project as test_final_project
 
 
 # These are the indexes of the
@@ -195,17 +195,17 @@ def test_parse_formula():
     # Call the parse_forumla function six times, each time
     # with a different invalid chemical formula. Verify that
     # parse_forumla function raises an exception each time.
-    with pytest.raises(FormulaError):
+    with test_final_project.raises(FormulaError):
         parse_formula("L", periodic_table_dict)
-    with pytest.raises(FormulaError):
+    with test_final_project.raises(FormulaError):
         parse_formula("4H", periodic_table_dict)
-    with pytest.raises(FormulaError):
+    with test_final_project.raises(FormulaError):
         parse_formula("H2L4", periodic_table_dict)
-    with pytest.raises(FormulaError):
+    with test_final_project.raises(FormulaError):
         parse_formula("-H", periodic_table_dict)
-    with pytest.raises(FormulaError):
+    with test_final_project.raises(FormulaError):
         parse_formula("(H2O", periodic_table_dict)
-    with pytest.raises(FormulaError):
+    with test_final_project.raises(FormulaError):
         parse_formula("H2)O3", periodic_table_dict)
 
 
@@ -242,4 +242,4 @@ def test_compute_molar_mass():
 
 # Call the main function that is part of pytest so that the
 # computer will execute the test functions in this file.
-pytest.main(["-v", "--tb=line", "-rN", __file__])
+test_final_project.main(["-v", "--tb=line", "-rN", __file__])

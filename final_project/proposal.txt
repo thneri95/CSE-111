@@ -1,0 +1,59 @@
+Byu-Idaho  
+CSE-111 Programming with Functions
+W05 - Proposal - Final Project
+Author: Tiago Borges 
+
+
+CSE 111 Proposal for a Student Chosen Program
+---------------------------------------------
+What is the title of your program?
+Loan Installment Calculator
+
+
+---------------------------------------------
+What real-world problem will your program address or help to solve?
+
+Many people struggle to understand how loans and interest rates affect their payments over time. This program will 
+help users calculate their loan installments based on different interest rates (simple and compound), allowing them 
+to make informed financial decisions
+
+------------------------------------
+
+
+What will you learn from developing this program?
+
+How to implement financial formulas in Python
+
+How to structure a program with multiple functions
+
+How to write and execute test cases using pytest
+
+How to format and present financial data clearly
+
+----------------------------------------------
+
+What Python modules will your program use?
+
+math (for financial calculations)
+
+pytest or unittest (for testing functions)
+----------------------------------------------
+List the names of functions you will need?
+
+calculate_simple_interest(principal, rate, time): Calculates the monthly installment using simple interest
+
+calculate_compound_interest(principal, rate, time): Calculates the monthly installment using compound interest
+
+get_user_input(): Collects loan details from the user
+
+display_results(principal, rate, time, installment, total_paid, total_interest): Displays the calculated
+loan details in a readable format
+
+---------------------------------------------------------
+
+List the names of the test functions you will write:
+
+test_calculate_simple_interest()
+
+test_calculate_compound_interest()
+

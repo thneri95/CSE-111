@@ -8,8 +8,8 @@ Author: Tiago Borges
 
 
 from water_flow import water_column_height, pressure_gain_from_water_height, pressure_loss_from_pipe, pressure_loss_from_fittings, reynolds_number, pressure_loss_from_pipe_reduction
-from pytest import approx
-import pytest
+from final_project.test_final_project import approx
+import final_project.test_final_project as test_final_project
 
 
 
@@ -87,4 +87,4 @@ def test_pressure_loss_from_pipe_reduction():
 
 # Call the main function that is part of pytest so that the
 # computer will execute the test functions in this file.
-pytest.main(["-v", "--tb=line", "-rN", __file__])
+test_final_project.main(["-v", "--tb=line", "-rN", __file__])

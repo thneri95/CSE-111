@@ -21,7 +21,7 @@ doing any of the following:
    Date       (hours)   Description of Work
   
 ----------  ----------  -------------------------
-2025-04-01      1.0     Created a roadmap to do the project, follow the requirements and achieve goals
+2025-04-01      1.0     Created a roadmap to do the project: "follow the requirements and achieve goals"
 2025-04-01      2.0     Wrote the initial versions of the core loan calculation functions (calculate_monthly_payment, generate_amortization_schedule)
 2025-04-02      2.0     Implemented input validation (validate_positive_float, validate_non_negative_float) and the get_loan_details function
 2025-04-02      0.5     Researched error handling in Python
@@ -31,10 +31,10 @@ doing any of the following:
 2025-04-04      1.0     Added user input for the filename
 2025-04-05      1.0     Implemented the compare_loans function
 2025-04-05      0.5      Designed the output format for compare_loans
-2025-04-06      0.5     Added functionality to load loan data from a CSV file
+2025-04-06      0.5     Added functionality to load loan data from a CSV file (My own csv´s save after the program work) 
 2025-04-06      0.5      Added functionality to export the amortization schedule to a CSV
 2025-04-06      1.25     Created test functions for validate_positive_float, validate_non_negative_float, calculate_monthly_payment, calculate_loan_totals, and generate_amortization_schedule
-2025-04-06      0.5      Ran pytest and debugged the test file
+2025-04-06      0.5      Ran unit test and debugged the test file
 2025-04-06      0.5      Wrote the introduction to the program's functionality
 
 Therefore, the total time spent on the project according to the table is about 14 hours

@@ -4,7 +4,7 @@ Course: CSE-111 Programming with Functions
 Final  Project: - Loan Calculator
 Author: Tiago Borges  
 
-Advanced Loan Calculator: Simplified Financial Planning
+Advanced Loan Calculator -  "Simplified Financial Planning"
 This program assists with loan decisions (car, house, etc)
  Quickly calculate payments, view amortization and compare scenarios (Offers from different banks)
 

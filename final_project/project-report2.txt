@@ -19,7 +19,7 @@ doing any of the following:
 -------------------------------------------------
             Time Spent
    Date       (hours)   Description of Work
-  
+  Y-M-D
 ----------  ----------  -------------------------
 2025-04-01      1.0     Created a roadmap to do the project: "follow the requirements and achieve goals"
 2025-04-01      2.0     Wrote the initial versions of the core loan calculation functions (calculate_monthly_payment, generate_amortization_schedule)

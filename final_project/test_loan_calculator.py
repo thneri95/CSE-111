@@ -86,7 +86,7 @@ def test_generate_amortization_schedule_zero_interest():
     assert schedule[-1]['Remaining Balance'] == 0
 
 
-# To do this test please: 
+# To execute the test please: 
 # Open the Terminal 
 # Write >>>  python -m pytest  
 # Press enter

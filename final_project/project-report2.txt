@@ -1,0 +1,45 @@
+Second Report for a Student Chosen Project
+
+Do the following:
+
+1. In the table below, list the dates, amount of time spent, and
+description of the work that you did on your project. Follow the example
+that is in the first row of the table below. Include the time you spent
+doing any of the following:
+    a. discussing your project with your teacher, tutor, or fellow students
+    b. researching by reading articles and watching applicable videos
+    c. designing your project by drawing diagrams and other applicable documents
+    d. writing experimental code
+    d. writing code for your project
+    e. writing test functions
+    f. debugging your code
+    g. any other activity that helped you complete your project
+
+    
+-------------------------------------------------
+            Time Spent
+   Date       (hours)   Description of Work
+  
+----------  ----------  -------------------------
+2025-04-01      1.0     Created a roadmap to do the project, follow the requirements and achieve goals
+2025-04-01      2.0     Wrote the initial versions of the core loan calculation functions (calculate_monthly_payment, generate_amortization_schedule)
+2025-04-02      2.0     Implemented input validation (validate_positive_float, validate_non_negative_float) and the get_loan_details function
+2025-04-02      0.5     Researched error handling in Python
+2025-04-03      0.5     Added the display_results and display_amortization_schedule functions
+2025-04-03      0.5     Debugged issues with the amortization schedule calculation
+2025-04-04      1.5     Implemented the save_results_to_file function
+2025-04-04      1.0     Added user input for the filename
+2025-04-05      1.0     Implemented the compare_loans function
+2025-04-05      0.5      Designed the output format for compare_loans
+2025-04-06      0.5     Added functionality to load loan data from a CSV file
+2025-04-06      0.5      Added functionality to export the amortization schedule to a CSV
+2025-04-06      1.25     Created test functions for validate_positive_float, validate_non_negative_float, calculate_monthly_payment, calculate_loan_totals, and generate_amortization_schedule
+2025-04-06      0.5      Ran pytest and debugged the test file
+2025-04-06      0.5      Wrote the introduction to the program's functionality
+
+Therefore, the total time spent on the project according to the table is about 14 hours
+
+
+2. In Canvas, submit this completed text file, your Python program, your
+Python test file, and any project data files such as .txt and .csv files and
+link to video walkthrough if needed.
